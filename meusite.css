@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding-left: 6px;
+    padding-right: 10px;
+}
+
+header .navegação {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    /*margin-left: 16px;*/
+    float: left;
+}
+
+h1 {
+    color: black;
+    font-weight: lighter;
+    display: inline;
+    font-size: 25px;
+}
+
+a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+}
+
+
+.navegação {
+    width: 1366px;
+    margin: 0 auto;
+    
+}
+
+.fotoprincipal {
+    width: 60%;
+    height: auto;
+    padding: 10px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+img {
+    margin-top: 40px;
+    width: 100%;    
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: black;
+    float: left;
+    line-height: 100px;
+    margin-left: 40px;
+    cursor: pointer;
+    
+}
+
+#checkbox {
+    display: none;
+}
+
+@media (max-width: 952px) {
+    label.logo
+        font-size: 30px;
+        padding-left: 50px;
+}
